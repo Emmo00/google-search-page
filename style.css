@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: rgb(88, 140, 195);
+}
+body {
+  background-color: rgba(32, 33, 36, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+  display: flex;
+}
+nav div {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 15px;
+}
+nav img {
+  border-radius: 50%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
+section h1 {
+  color: white;
+  font-size: 100px;
+}
+.search-input {
+  text-align: center;
+  width: 560px;
+  display: flex;
+  justify-content: center;
+  flex: auto;
+}
+.search-input input {
+  width: 100%;
+  height: 45px;
+  border-radius: 40px;
+  background-color: rgba(32, 33, 36, 1);
+  border: 0.1px solid rgb(100, 100, 100);
+}
+section div {
+  display: flex;
+}
+section button {
+  background-color: rgb(69, 70, 72);
+  padding: 15px;
+  color: white;
+  border: none;
+  margin: 5px;
+  border-radius: 4px;
+}
+section p {
+  color: rgb(174, 174, 174);
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(20, 21, 26, 1);
+}
+footer div {
+  padding: 20px;
+  margin: 0 80px;
+  display: flex;
+  justify-content: space-around;
+}
+hr {
+  color: rgb(100, 100, 100);
+}
